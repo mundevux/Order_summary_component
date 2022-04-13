@@ -8,9 +8,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./dist/style.css">
     <title>Order summary component</title>
 </head>
-<body class="font-['Red_Hat_Display']">
-    
+<body class="font-['Red_Hat_Display'] bg-Paleblue">
+    <div class="w-screen h-screen flex flex-col justify-center items-center">
+        <div class="border-2 w-80 rounded-xl bg-white">
+            <div class="mb-5">
+                <img src="./dist/images/illustration-hero.svg" alt="Illustration hero" srcset="" class="rounded-t-xl">
+            </div>
+            <div class="m-4">
+                <div class="text-center">
+                    <h1 class="text-Darkblue text-lg font-black mb-3">Order Summary</h1>
+                    <p class="text-Desaturatedblue text-sm mx-6">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+                </div>
+                <div class="m-5 p-3 flex justify-between bg-Verypaleblue rounded-xl">
+                    <div class="flex">
+                        <img src="./dist/images/icon-music.svg" alt="Icon Music" srcset="">
+                        <div class="ml-3 mt-1 text-Desaturatedblue">
+                            <h2 class="text-sm text-Darkblue font-black ">Annual Plan</h2>
+                            <p class="text-xs">$59.99/year</p>
+                        </div>
+                    </div>
+                   <a href="#" class="mt-3 text-xs text-Brightblue font-bold underline">Change</a> 
+                </div>
+                <div class="flex-col mx-5 mt-3 ">
+                    <button type="button" class="w-full bg-Brightblue shadow-lg shadow-Desaturatedblue/50 py-2 rounded-lg text-Paleblue font-bold text-sm mb-4">Proceed to Payment</button>
+                    <button type="button" class="w-full text-Desaturatedblue font-bold text-sm mb-3">Cancel Order</button>
+                </div>
+            </div>
+        </div>
+        <div class="mt-5 text-center">
+            <p class="text-Desaturatedblue font-bold">Challenge by <a href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj" target="_blank" rel="noopener noreferrer" class="text-Darkblue">Frontend Mentor</a>. Coded by <a href="https://github.com/mundevux" target="_blank" rel="noopener noreferrer" class="text-Darkblue">Mundev.UX</a> 🤍.</p>
+        </div>
+    </div>
 </body>
 </html>
